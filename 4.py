@@ -1,21 +1,17 @@
-function vendingMachine(uang, jumlahBayar) {
-  var stockUang = [500, 1000, 2000, 5000, 10000, 20000, 50000];
+  a = ["cat", "listen", "code", "act", "silent", "tac"];
+  b = ["try", "fire", "dark"];
 
-  stockUang.sort(function(a, b) {
-    return b - a;
-  });
-
-  var uangKembalian = [];
-
-  var kembalian = uang - jumlahBayar;
-
-  for (var a = 0; a < stockUang.length; a++) {
-    if (kembalian >= stockUang[a]) {
-      uangKembalian.push(stockUang[a]);
-      kembalian -= stockUang[a];
-    }
-  }
-
-  return uangKembalian;
+kata1 = if (
+	a.count() = []
+{
+print(kata1.index(a))
 }
-console.log(vendingMachine(50000, 21500));
+else {
+print "Kata tidak ditemukan"
+
+kata2 = if (
+	b.count() = []
+{
+print(kata2.index(b))
+else {
+print "Kata tidak ditemukan"
