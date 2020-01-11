@@ -31,3 +31,4 @@ function myBiodata(biodata){
   return biodataObj
 }
 console.log(myBiodata('ari'));
+
